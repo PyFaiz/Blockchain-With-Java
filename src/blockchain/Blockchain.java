@@ -19,4 +19,8 @@ public class Blockchain{
         String blockchainJson = new GsonBuilder().setPrettyPrinting().create().toJson(blockchain);
         System.out.println(blockchainJson);
     }
+    
+    public static Boolean isChainValid() {
+    	
+    }
 }
